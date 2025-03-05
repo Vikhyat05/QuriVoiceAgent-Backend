@@ -1,0 +1,63 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+.env
+
+# IDE files (optional)
+.vscode/
+.idea/
+
+# System files (macOS/Linux/Windows)
+.DS_Store
+Thumbs.db
+
+# Logs and debugging
+*.log
+
+# Local test files
+test.py
+notesFunctionSample.py
+prompt.py
+
+# Temporary/backup files
+*.bak
+*.swp
+
+# Ignore personal notes if they shouldn't be in version control
+notes.txt
+
+# Requirements - only ignore if you auto-generate it and don't want to track it manually
+# requirements.txt
+
+# Supabase credentials/config (if any exist)
+.supabase/
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+
+# Pytest cache
+.cache/
+pytest_cache/
+
+# Jupyter Notebook checkpoints (in case you ever add Jupyter)
+.ipynb_checkpoints/
+
+# Ignore data or backup files
+*.db
+*.sqlite
+*.zip
+*.tar.gz
+
+# AI Model files (in case you ever use local models)
+*.pt
+*.h5
+*.pkl
